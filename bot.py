@@ -16,7 +16,7 @@ def welcome(message):
 	bot.send_stiker(message.chat.id, sti)
 
 #Кнопочки для бота
-	markup = types.ReplyKeyBoardMarkup(resiza_keyboard = True)
+	markup = types.ReplyKeyBoardMarkup(resize_keyboard = True)
 	item1 = types.keyboardButton('Информация')
 	item2 = types.keyboardButton('Что я могу делать')
 	iten3 = types.keyboardButton('Разработчик')
